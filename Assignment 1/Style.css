@@ -1,12 +1,20 @@
-body{
-    background-color: #9af7c8;
+body {
+  background-color: #9af7c8;
 }
 
-h1{
-    color: #301b26;
-    font-size: 300%;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+h1 {
+  color: #180f14;
+  font-size: 300%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-#IntroTitle{text-align: center}
+h4 {
+  color: #4a2e3c;
+  font-family: "Times New Roman", Times, sans-serif;
+  font-stretch: condensed;
+}
 
+#IntroTitle {
+  text-align: center;
+}
