@@ -13,36 +13,71 @@ h1 {
     font-weight: 900;
 }
 
-#tables{
+.topTables{
     width: 800px;
     border-spacing: 7px;
+    text-align: left;
 }
 
-#heads{
+.collapse{
+    border-collapse: collapse; 
+}
+
+.priceText{
+    font-size: 12px;
+}
+
+.productText{
+    font-size: 14px;
+}
+
+.bottomTables{
+    width: 800px;
+    border-spacing: 7px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.heads{
     border: 0px;
     width: 375px;
 }
 
-#Titles {
+.Titles {
     width: 575px;
     text-align: left;
 }
 
-#spacer{
+.spacer{
     border:0px;
     width: 25px;
 }
 
-#halfPage{
+.halfPage{
     width: 375px;
 }
 
+.smaller{
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.top{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 375px;
+}
+
+input.quantities{
+    width: 50px;
+}
+
 p{
-    margin: 2px
+    margin: 2px;
 }
 
 td {
-    border: 2px solid black;
+    border: 1px solid black;
     border-collapse: collapse;
 }
 
