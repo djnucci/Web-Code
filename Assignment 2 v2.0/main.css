@@ -1,0 +1,85 @@
+body {
+    background-color: #F5FFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    Color: red;
+}
+
+#second {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.topTables{
+    width: 800px;
+    border-spacing: 7px;
+    text-align: left;
+}
+
+.collapse{
+    border-collapse: collapse; 
+}
+
+.priceText{
+    font-size: 12px;
+}
+
+.productText{
+    font-size: 14px;
+}
+
+.bottomTables{
+    width: 800px;
+    border-spacing: 7px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.heads{
+    border: 0px;
+    width: 375px;
+}
+
+.Titles {
+    width: 575px;
+    text-align: left;
+}
+
+.spacer{
+    border: 0px;
+    width: 25px;
+}
+
+.halfPage{
+    width: 375px;
+}
+
+.smaller{
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.top{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 375px;
+}
+
+input.quantities{
+    width: 50px;
+    margin: 2px;
+    margin-left: 8px;
+}
+
+p{
+    margin: 2px;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
