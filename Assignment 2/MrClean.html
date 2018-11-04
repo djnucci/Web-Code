@@ -37,7 +37,7 @@
             </td>
             <td class="spacer"></td>
             <td class="halfPage">
-                <p>Collection Date: <input id="collectDate" type="text" style="width: 98%; float: right; margin: 2px"></p>
+                <p>Collection Date: <input id="collectDate" type="date" style="width: 98%; float: right; margin: 2px"></p>
             </td>
         </tr>
         <tr>
@@ -46,7 +46,7 @@
             </td>
             <td class="spacer"></td>
             <td class="halfPage">
-                <p>Delivery Date: <input id="deliverDate" type="text" style="width: 98%; float: right; margin: 2px"></p>
+                <p>Delivery Date: <input id="deliverDate" type="date" style="width: 98%; float: right; margin: 2px"></p>
             </td>
         </tr>
     </table>
@@ -100,7 +100,7 @@
                         <td class="priceText">4.65</td>
                     </tr>
                     <tr>
-                        <td><input class="quantities" type="text" placeholder="0" step="1" min="0" /></td>
+                        <td><input class="quantities" type="number" placeholder="0" step="1" min="0" /></td>
                         <td class="productText">T shirt (Wash)</td>
                         <td class="priceText">2.50</td>
                     </tr>
@@ -156,7 +156,7 @@
             <td class="spacer"></td>
             <td class="spacer"></td>
             <th>
-                <table class="top">
+                <table id="clothing" class="top">
                     <tr>
                         <td>Qty</td>
                         <td>Item</td>
@@ -254,7 +254,7 @@
     <table class="bottomTables">
         <tr class="heads">
             <th>
-                <table class="top">
+                <table id="sheets" class="top">
                     <tr>
                         <td><input class="quantities" type="number" placeholder="0" step="1" min="0" /></td>
                         <td class="productText">Valance Sheet</td>
@@ -342,7 +342,7 @@
             <td class="spacer"></td>
             <td class="spacer"></td>
             <th>
-                <table class="top">
+                <table id="other" class="top">
                     <tr>
                         <td><input class="quantities" type="number" placeholder="0" step="1" min="0" /></td>
                         <td class="productText">Hand Towel</td>
@@ -431,7 +431,7 @@
     <table class="bottomTables">
         <tr class="heads">
             <th>
-                <table class="top">
+                <table id="service" class="top">
                     <tr>
                         <td><input class="quantities" type="number" placeholder="0" step="1" min="4" /></td>
                         <td class="productText">Wash, Dry & Fold (min. 4kg)</td>
