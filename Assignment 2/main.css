@@ -13,6 +13,14 @@ h1 {
     font-weight: 900;
 }
 
+.productText{
+    width: 260px;
+}
+
+.priceText{
+    width: 75px
+}
+
 .topTables{
     width: 800px;
     border-spacing: 7px;
@@ -21,6 +29,7 @@ h1 {
 
 .collapse{
     border-collapse: collapse; 
+    width: 375px;
 }
 
 .priceText{
@@ -74,6 +83,10 @@ input.quantities{
 
 p{
     margin: 2px;
+}
+
+tr{
+    border-collapse: collapse;
 }
 
 td {
